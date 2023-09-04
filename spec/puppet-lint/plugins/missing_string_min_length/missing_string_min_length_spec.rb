@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-RSpec.describe 'missing_string_min_length' do
+RSpec.describe 'missing_string_min_length' do # rubocop:disable RSpec/DescribeClass
   let(:msg) { 'String has no minimum length' }
 
   context 'with fix disabled' do
